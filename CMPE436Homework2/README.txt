@@ -1,0 +1,4 @@
+This assignment has 3 project.
+Firstly, I rebuild my gameoflife project with using multithread. I assign each cell to different thread and these threads read and write simultaneously. But firstly need to wait all threads for finishing read. This process same in writes. After all cell writes, table is diplayed.
+Secondly, I create simple deadlock example. Create 3 thread and 3 binary semaphore each need 2 semaphore to reach console. If all gets 1 semaphore. No one can display it. Deadlock is occured.
+Finally, I create simple race condition example. Create 3 thread and each gets same pointer to write. In run function pointer will be incremented by 1 for 1000000 times. Then I will print each. I get 3 different printed integer for race condition.

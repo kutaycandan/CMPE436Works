@@ -1,0 +1,4 @@
+This assignment has 3 question.
+In first question, I implement 2 different race condition detection algorithms. First one is lockset. In lockset, I create bunch of different binary semaphore. Then, I use them while manipulating variable in CS. My code finds whether different semaphores are used in similar variable or not. Second one is happens before. In happens before, I show 2 different example first one has order with using semaphores and each thread waits other to   use same variable. However, at my second example there is no semaphores that thread does not wait other threads so race condition occur.
+In second question, I wrote Promela code part but have still some problem in others parts. So I will add second question later.
+For third question, I draw unwind path with length 4 and write holds or not holds for each different LTL formula.

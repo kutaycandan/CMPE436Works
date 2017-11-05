@@ -1,0 +1,5 @@
+Assignment 1 includes two parts. It has two class for each part.
+First is matrix multiplication. 
+First class is main class. Main class includes main function which gets arguments for file names. Reads them in ReadMatrix class. Then multiply and write to file. multiplyMatrix function gets matrix and multiply them. ReadMatrix class keeps isMatrix for determine file contains matrix or not. Also has get funcions for failure note, isMatrix and matrix itself. Also checks all condition in readMatrix funtion.
+Second is game of life.
+First class is main class. Main class includes main function which gets arguments for row, column, number of turns and initial table(not require). Then initialize board and plays. GameOfLife class has construction funcions for different arguments. Also it has table creation functions for reading and putting randomly. Then plays game for determined turn. Game also has determined conditions for changing data.
